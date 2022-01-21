@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
-const API_KEY = '25346535-3f345681efb88ddcfdbe77e18';
+const API_KEY = '24457855-696bd2eff11a5d8607ee7122f';
 export default class ImagesAPIService {
   constructor() {
     this.searchQuery = '';
