@@ -1,9 +1,9 @@
 import './css/style.css';
 'use strict';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import ImagesAPIService from './imageAPIservice';
-import LoadMoreBtn from './load-more-btn';
-import Markup from './imagemerkup';
+import ImagesAPIService from './js/imageAPIservice';
+import LoadMoreBtn from './js/load-more-btn';
+import Markup from './js/imagemerkup';
 
 const refs = {
   form: document.querySelector('#search-form'),
